@@ -454,11 +454,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gardening" translatesAutoresizingMaskIntoConstraints="NO" id="wHv-dh-4JF">
-                                <rect key="frame" x="33" y="331" width="102" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Anime-graphic" translatesAutoresizingMaskIntoConstraints="NO" id="Adt-oP-CWR">
-                                <rect key="frame" x="161" y="331" width="106" height="128"/>
+                                <rect key="frame" x="10" y="324" width="125" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FtP-XB-r33">
@@ -483,6 +479,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Anime-graphic" translatesAutoresizingMaskIntoConstraints="NO" id="Adt-oP-CWR">
+                                <rect key="frame" x="152" y="324" width="124" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gBO-fW-4zl"/>
                         <color key="backgroundColor" red="1" green="0.74436664772848204" blue="0.75258406987287552" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -491,7 +491,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dvf-6L-GNM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5748" y="94"/>
+            <point key="canvasLocation" x="5747.826086956522" y="93.75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5Jc-vi-EKj">
