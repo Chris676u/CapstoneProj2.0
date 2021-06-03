@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186A46BE2666621900E64F9F /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A46BD2666621900E64F9F /* BaseTabBarController.swift */; };
+		186A46C12666666400E64F9F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A46C02666666400E64F9F /* SignInViewController.swift */; };
 		2FD08626263C32DC00AE4011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD08625263C32DC00AE4011 /* AppDelegate.swift */; };
 		2FD08628263C32DC00AE4011 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD08627263C32DC00AE4011 /* SceneDelegate.swift */; };
 		2FD0862A263C32DC00AE4011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD08629263C32DC00AE4011 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		186A46BD2666621900E64F9F /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		186A46C02666666400E64F9F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		2FD08622263C32DC00AE4011 /* CapstoneProj2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneProj2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD08625263C32DC00AE4011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD08627263C32DC00AE4011 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +44,7 @@
 		2FD08619263C32DC00AE4011 = {
 			isa = PBXGroup;
 			children = (
+				186A46BD2666621900E64F9F /* BaseTabBarController.swift */,
 				2FD08624263C32DC00AE4011 /* CapstoneProj2.0 */,
 				2FD08623263C32DC00AE4011 /* Products */,
 			);
@@ -60,6 +65,7 @@
 				2FD08627263C32DC00AE4011 /* SceneDelegate.swift */,
 				2FD08629263C32DC00AE4011 /* ViewController.swift */,
 				2FD0862B263C32DC00AE4011 /* Main.storyboard */,
+				186A46C02666666400E64F9F /* SignInViewController.swift */,
 				2FF835752657EFB9006BE517 /* Images.xcassets */,
 				2FD08630263C32DE00AE4011 /* LaunchScreen.storyboard */,
 				2FD08633263C32DE00AE4011 /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186A46BE2666621900E64F9F /* BaseTabBarController.swift in Sources */,
 				2FD0862A263C32DC00AE4011 /* ViewController.swift in Sources */,
 				2FD08626263C32DC00AE4011 /* AppDelegate.swift in Sources */,
+				186A46C12666666400E64F9F /* SignInViewController.swift in Sources */,
 				2FD08628263C32DC00AE4011 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
