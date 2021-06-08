@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6IR-69-DBx">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6IR-69-DBx">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -331,7 +331,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ybr-7E-r6T">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-04-12 at 7.47.35 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Ybr-7E-r6T">
                                 <rect key="frame" x="20" y="438" width="99" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -347,11 +347,11 @@
                                 <rect key="frame" x="150" y="629" width="118" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t9z-a4-KAC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-05-07 at 10.41.35 AM" translatesAutoresizingMaskIntoConstraints="NO" id="t9z-a4-KAC">
                                 <rect key="frame" x="143" y="438" width="112" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4qr-kV-tvK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-05-06 at 1.29.10 PM" translatesAutoresizingMaskIntoConstraints="NO" id="4qr-kV-tvK">
                                 <rect key="frame" x="277" y="438" width="117" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -512,21 +512,21 @@
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="GrH-8F-IzA">
                                 <rect key="frame" x="0.5" y="324" width="413" height="135"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gardening" translatesAutoresizingMaskIntoConstraints="NO" id="wHv-dh-4JF">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gardening" translatesAutoresizingMaskIntoConstraints="NO" id="wHv-dh-4JF">
                                         <rect key="frame" x="0.0" y="0.0" width="125" height="135"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="135" id="ikG-xj-LPH"/>
                                             <constraint firstAttribute="width" constant="125" id="jvU-aE-HFe"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Anime-graphic" translatesAutoresizingMaskIntoConstraints="NO" id="Adt-oP-CWR">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Anime-graphic" translatesAutoresizingMaskIntoConstraints="NO" id="Adt-oP-CWR">
                                         <rect key="frame" x="139" y="0.0" width="130" height="135"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="130" id="GG2-6C-j7T"/>
                                             <constraint firstAttribute="height" constant="135" id="sSv-5i-UhI"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2021-05-21 at 10.46.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="8O5-Yq-fOK">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2021-05-21 at 10.46.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="8O5-Yq-fOK">
                                         <rect key="frame" x="283" y="0.0" width="130" height="135"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="135" id="7B8-nr-rgJ"/>
@@ -697,6 +697,9 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Anime-graphic" width="2560" height="1280"/>
+        <image name="Screen Shot 2021-04-12 at 7.47.35 AM" width="709" height="542"/>
+        <image name="Screen Shot 2021-05-06 at 1.29.10 PM" width="777" height="992"/>
+        <image name="Screen Shot 2021-05-07 at 10.41.35 AM" width="527" height="682"/>
         <image name="Screen Shot 2021-05-21 at 10.13.13 AM" width="848" height="615"/>
         <image name="Screen Shot 2021-05-21 at 10.46.57 AM" width="863" height="692"/>
         <image name="gaming_pic" width="1400" height="933"/>
