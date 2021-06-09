@@ -191,7 +191,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Chats"/>
                                 <connections>
-                                    <segue destination="5da-Fi-g9y" kind="show" id="WM2-rn-gSH"/>
+                                    <segue destination="5da-Fi-g9y" kind="show" identifier="chat" id="WM2-rn-gSH"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-05-21 at 10.13.13 AM" translatesAutoresizingMaskIntoConstraints="NO" id="TNE-uC-LOn">
@@ -203,7 +203,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Profile"/>
                                 <connections>
-                                    <segue destination="0NO-9i-pMk" kind="show" id="uXF-rN-aaj"/>
+                                    <segue destination="0NO-9i-pMk" kind="show" identifier="profile" id="uXF-rN-aaj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hq6-Yv-RS2">
@@ -219,24 +219,25 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="YR0-35-L8W"/>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="mex-QP-01Z"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="userNameHome" destination="hq6-Yv-RS2" id="5Io-ZW-nzj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MnF-cr-gdS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1075" y="1892"/>
+            <point key="canvasLocation" x="-1075" y="1879"/>
         </scene>
         <!--Chats-->
         <scene sceneID="qSz-zG-cNA">
             <objects>
-                <viewController title="Chats" id="5da-Fi-g9y" sceneMemberID="viewController">
+                <viewController title="Chats" id="5da-Fi-g9y" customClass="ChatViewController" customModule="CapstoneProj2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GDc-fZ-CvS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CHATS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHv-qw-vRc">
-                                <rect key="frame" x="167" y="254" width="55" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CHATS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHv-qw-vRc">
+                                <rect key="frame" x="20" y="254" width="394" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -246,6 +247,9 @@
                                 <rect key="frame" x="20" y="82" width="58" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Home"/>
+                                <connections>
+                                    <segue destination="Zqi-KR-qlA" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="Noe-6e-v6O"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UXC-LL-240"/>
@@ -255,15 +259,19 @@
                     <navigationItem key="navigationItem" id="kEF-tK-LvM">
                         <barButtonItem key="backBarButtonItem" title="Home" id="Cn5-S2-Gk4"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="userNameChat" destination="SHv-qw-vRc" id="92s-Uy-7Tk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oc7-be-lQN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Zqi-KR-qlA" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-797.10144927536237" y="3672.9910714285711"/>
+            <point key="canvasLocation" x="-536.231884057971" y="2596.875"/>
         </scene>
         <!--Profile-->
         <scene sceneID="AkC-Gp-Yj5">
             <objects>
-                <viewController title="Profile" id="0NO-9i-pMk" sceneMemberID="viewController">
+                <viewController title="Profile" id="0NO-9i-pMk" customClass="ProfileViewController" customModule="CapstoneProj2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bjN-HY-Ms5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,8 +322,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Communities"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFW-PC-lPT">
-                                <rect key="frame" x="188" y="139" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFW-PC-lPT">
+                                <rect key="frame" x="18" y="139" width="396" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -325,6 +333,9 @@
                                 <rect key="frame" x="27" y="62" width="41" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Home"/>
+                                <connections>
+                                    <segue destination="O13-V2-VCA" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="dnp-Pk-XI4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeD-ay-TQM">
                                 <rect key="frame" x="347" y="62" width="48" height="30"/>
@@ -346,11 +357,14 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="userNameProfile" destination="OFW-PC-lPT" id="YBP-xm-oHe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mSI-vs-Y9b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="O13-V2-VCA" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1722" y="3651"/>
+            <point key="canvasLocation" x="-1610.144927536232" y="2596.875"/>
         </scene>
         <!--Communties-->
         <scene sceneID="aOz-Kj-wBq">
@@ -418,7 +432,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VrQ-t0-hTR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1854" y="2025"/>
+            <point key="canvasLocation" x="-2001" y="1830"/>
         </scene>
         <!--Explore-->
         <scene sceneID="cjM-zq-yXQ">

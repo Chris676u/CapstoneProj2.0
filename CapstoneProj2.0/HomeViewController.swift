@@ -19,8 +19,28 @@ class HomeViewController: UIViewController {
             
         }
        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       
+        if(segue.identifier == "profile"){
+
+        let profileVC = segue.destination as! ProfileViewController
+        
+        profileVC.userName = passText
+        
+        }
+        if(segue.identifier == "chat"){
+
+        let chatVC = segue.destination as! ChatViewController
+        
+        chatVC.userName = passText
+        
+        }
     }
+    
+    @IBAction func unwindToHome(segue: UIStoryboardSegue) { }
+
+    
     
 
  
-
+}
