@@ -17,6 +17,7 @@
 		2FF835762657EFB9006BE517 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF835752657EFB9006BE517 /* Images.xcassets */; };
 		5B8B8689266D882B005125FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B8688266D882B005125FC /* LoginViewController.swift */; };
 		5B8B868B266D8849005125FC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B868A266D8849005125FC /* HomeViewController.swift */; };
+		5B8B868D266E843A005125FC /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8B868C266E8439005125FC /* NavViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2FF835752657EFB9006BE517 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5B8B8688266D882B005125FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5B8B868A266D8849005125FC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5B8B868C266E8439005125FC /* NavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				2FD08629263C32DC00AE4011 /* ViewController.swift */,
 				2FD0862B263C32DC00AE4011 /* Main.storyboard */,
 				5B8B8688266D882B005125FC /* LoginViewController.swift */,
+				5B8B868C266E8439005125FC /* NavViewController.swift */,
 				5B8B868A266D8849005125FC /* HomeViewController.swift */,
 				186A46C02666666400E64F9F /* SignInViewController.swift */,
 				2FF835752657EFB9006BE517 /* Images.xcassets */,
@@ -155,6 +158,7 @@
 				2FD08626263C32DC00AE4011 /* AppDelegate.swift in Sources */,
 				186A46C12666666400E64F9F /* SignInViewController.swift in Sources */,
 				5B8B868B266D8849005125FC /* HomeViewController.swift in Sources */,
+				5B8B868D266E843A005125FC /* NavViewController.swift in Sources */,
 				2FD08628263C32DC00AE4011 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
