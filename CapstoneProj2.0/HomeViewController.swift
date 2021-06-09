@@ -8,22 +8,39 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+   
+    
+    @IBOutlet weak var userNameHome: UILabel!
+    var passText = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+           userNameHome.text = "Welcome " + passText
+          
+            
+        }
+       
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       
+        if(segue.identifier == "profile"){
 
-        // Do any additional setup after loading the view.
+        let profileVC = segue.destination as! ProfileViewController
+        
+        profileVC.userName = passText
+        
+        }
+        if(segue.identifier == "chat"){
+
+        let chatVC = segue.destination as! ChatViewController
+        
+        chatVC.userName = passText
+        
+        }
     }
     
+    @IBAction func unwindToHome(segue: UIStoryboardSegue) { }
 
-    /*
-    // MARK: - Navigation
+    
+    
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+ 
 }
