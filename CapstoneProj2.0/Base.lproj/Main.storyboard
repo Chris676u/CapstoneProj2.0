@@ -217,7 +217,7 @@
                         <viewLayoutGuide key="safeArea" id="kNM-yJ-dco"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="YR0-35-L8W"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="YR0-35-L8W"/>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="mex-QP-01Z"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
@@ -364,7 +364,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mSI-vs-Y9b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="O13-V2-VCA" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1610.144927536232" y="2596.875"/>
+            <point key="canvasLocation" x="-1557" y="2597"/>
         </scene>
         <!--Communties-->
         <scene sceneID="aOz-Kj-wBq">
@@ -616,6 +616,7 @@
         <image name="Anime-graphic" width="2560" height="1280"/>
         <image name="Screen Shot 2021-05-21 at 10.13.13 AM" width="848" height="615"/>
         <image name="gardening" width="1486" height="836"/>
+        <image name="house" catalog="system" width="128" height="106"/>
         <image name="location" catalog="system" width="128" height="121"/>
         <image name="person.3.fill" catalog="system" width="128" height="61"/>
         <image name="person.and.person.fill" catalog="system" width="128" height="80"/>
