@@ -25,7 +25,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rfj-hG-0Te">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2021-05-21 at 10.46.57 AM" translatesAutoresizingMaskIntoConstraints="NO" id="rfj-hG-0Te">
                                         <rect key="frame" x="67" y="94" width="240" height="128"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="128" id="LdF-3Y-GGM"/>
@@ -389,13 +389,17 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="61" translatesAutoresizingMaskIntoConstraints="NO" id="KDm-c5-Dip">
-                                <rect key="frame" x="65" y="217" width="277.5" height="94"/>
+                                <rect key="frame" x="65" y="217" width="352.5" height="150"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ME-zu-vzs">
-                                        <rect key="frame" x="0.0" y="0.0" width="175" height="94"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gaming_pic" translatesAutoresizingMaskIntoConstraints="NO" id="4ME-zu-vzs">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="fUz-NP-oXr"/>
+                                            <constraint firstAttribute="height" constant="150" id="sqz-WV-lGO"/>
+                                        </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3R-gz-Nmq">
-                                        <rect key="frame" x="236" y="0.0" width="41.5" height="94"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3R-gz-Nmq">
+                                        <rect key="frame" x="311" y="0.0" width="41.5" height="150"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -615,6 +619,8 @@
     <resources>
         <image name="Anime-graphic" width="2560" height="1280"/>
         <image name="Screen Shot 2021-05-21 at 10.13.13 AM" width="848" height="615"/>
+        <image name="Screen Shot 2021-05-21 at 10.46.57 AM" width="863" height="692"/>
+        <image name="gaming_pic" width="1400" height="933"/>
         <image name="gardening" width="1486" height="836"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="location" catalog="system" width="128" height="121"/>
