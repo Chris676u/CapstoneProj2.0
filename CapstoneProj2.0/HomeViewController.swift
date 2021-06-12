@@ -14,7 +14,7 @@ class HomeViewController: UIViewController {
     var passText = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-           userNameHome.text = "Welcome " + passText
+           userNameHome.text = "Welcome " + passText + "!"
           
             
         }

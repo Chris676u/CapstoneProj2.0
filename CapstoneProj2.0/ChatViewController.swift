@@ -12,7 +12,7 @@ var userName = ""
     @IBOutlet weak var userNameChat: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        userNameChat.text = userName + "'s Chats"
+        userNameChat.text = userName + "'s Messages"
         // Do any additional setup after loading the view.
     }
     
