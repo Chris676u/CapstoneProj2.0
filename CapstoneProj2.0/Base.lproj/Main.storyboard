@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6IR-69-DBx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6IR-69-DBx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -454,11 +454,11 @@
             <objects>
                 <viewController title="Friends" id="WSF-Kb-jIY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dJh-WE-FWO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HhP-gI-Fyb">
-                                <rect key="frame" x="33" y="86" width="348.5" height="680"/>
+                                <rect key="frame" x="33" y="113" width="348.5" height="680"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="132" translatesAutoresizingMaskIntoConstraints="NO" id="iAo-dm-Pib">
                                         <rect key="frame" x="0.0" y="0.0" width="348.5" height="128"/>
@@ -603,7 +603,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friends" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhy-dT-ez9">
-                                <rect key="frame" x="163.5" y="46" width="87.5" height="30"/>
+                                <rect key="frame" x="163.5" y="73" width="87.5" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -639,7 +639,7 @@
             <objects>
                 <viewController title="Profile" id="0NO-9i-pMk" customClass="ProfileViewController" customModule="CapstoneProj2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bjN-HY-Ms5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFW-PC-lPT">
@@ -670,13 +670,13 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Status" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HcT-xg-fhP">
-                                <rect key="frame" x="172.5" y="354" width="69.5" height="34"/>
+                                <rect key="frame" x="172.5" y="381" width="69.5" height="34"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Zgu-3L-b4D">
-                                <rect key="frame" x="9.5" y="611" width="395" height="150.5"/>
+                                <rect key="frame" x="9.5" y="638" width="395" height="150.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="zaA-vC-8am">
                                         <rect key="frame" x="0.0" y="0.0" width="125" height="150.5"/>
@@ -741,7 +741,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="v8r-ZC-wV1">
-                                <rect key="frame" x="9.5" y="421" width="395" height="150.5"/>
+                                <rect key="frame" x="9.5" y="448" width="395" height="150.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6WP-18-a17">
                                         <rect key="frame" x="0.0" y="0.0" width="125" height="150.5"/>
@@ -806,7 +806,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQn-bm-qq0">
-                                <rect key="frame" x="11.5" y="386" width="51" height="30"/>
+                                <rect key="frame" x="11.5" y="413" width="51" height="30"/>
                                 <state key="normal" title="Friends">
                                     <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -815,7 +815,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xIq-JW-r64">
-                                <rect key="frame" x="107" y="176" width="200" height="150"/>
+                                <rect key="frame" x="107" y="203" width="200" height="150"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2021-05-21 at 10.13.13 AM" translatesAutoresizingMaskIntoConstraints="NO" id="k9i-ya-wxz">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="150"/>
@@ -827,7 +827,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNC-Pl-rzj">
-                                <rect key="frame" x="12" y="576" width="90" height="30"/>
+                                <rect key="frame" x="12" y="603" width="90" height="30"/>
                                 <state key="normal" title="Communities">
                                     <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -1441,7 +1441,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="QE4-K7-56H"/>
-        <segue reference="0JD-PO-3HH"/>
+        <segue reference="uXF-rN-aaj"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="130446" width="512" height="512"/>
