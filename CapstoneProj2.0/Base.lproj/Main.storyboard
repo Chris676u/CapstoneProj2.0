@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6IR-69-DBx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6IR-69-DBx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -689,9 +689,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfb-Rp-orv">
-                                <rect key="frame" x="27" y="62" width="41" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfb-Rp-orv">
+                                <rect key="frame" x="7" y="53" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="62D-jJ-QzC"/>
+                                </constraints>
                                 <state key="normal" title="Home">
                                     <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -699,9 +701,11 @@
                                     <segue destination="O13-V2-VCA" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="dnp-Pk-XI4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeD-ay-TQM">
-                                <rect key="frame" x="347" y="62" width="48" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FeD-ay-TQM">
+                                <rect key="frame" x="307" y="53" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="DaQ-KW-nZ0"/>
+                                </constraints>
                                 <state key="normal" title="Logout">
                                     <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -880,12 +884,16 @@
                         <color key="backgroundColor" red="0.95434996388065008" green="0.90929105722807624" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="NQn-bm-qq0" firstAttribute="centerY" secondItem="bjN-HY-Ms5" secondAttribute="centerY" constant="-20" id="2KJ-ON-O3K"/>
+                            <constraint firstItem="FeD-ay-TQM" firstAttribute="centerY" secondItem="bjN-HY-Ms5" secondAttribute="centerY" constant="-380" id="2j3-sq-OVn"/>
                             <constraint firstItem="xIq-JW-r64" firstAttribute="centerY" secondItem="bjN-HY-Ms5" secondAttribute="centerY" constant="-170" id="3Rf-CK-rnC"/>
                             <constraint firstItem="NQn-bm-qq0" firstAttribute="centerX" secondItem="bjN-HY-Ms5" secondAttribute="centerX" constant="-170" id="6c2-XC-ymZ"/>
                             <constraint firstItem="xIq-JW-r64" firstAttribute="centerY" secondItem="bjN-HY-Ms5" secondAttribute="centerY" constant="-170" id="9MH-hu-ZIg"/>
                             <constraint firstItem="xIq-JW-r64" firstAttribute="centerX" secondItem="bjN-HY-Ms5" secondAttribute="centerX" id="CJz-2m-qY4"/>
+                            <constraint firstItem="Xfb-Rp-orv" firstAttribute="centerY" secondItem="bjN-HY-Ms5" secondAttribute="centerY" constant="-380" id="FvQ-cG-cG2"/>
                             <constraint firstItem="tNC-Pl-rzj" firstAttribute="centerX" secondItem="bjN-HY-Ms5" secondAttribute="centerX" constant="-150" id="LgD-bQ-a3i"/>
+                            <constraint firstItem="FeD-ay-TQM" firstAttribute="centerX" secondItem="bjN-HY-Ms5" secondAttribute="centerX" constant="150" id="Mhc-uq-6lj"/>
                             <constraint firstItem="Zgu-3L-b4D" firstAttribute="centerX" secondItem="bjN-HY-Ms5" secondAttribute="centerX" id="PJg-sl-8Mm"/>
+                            <constraint firstItem="Xfb-Rp-orv" firstAttribute="centerX" secondItem="bjN-HY-Ms5" secondAttribute="centerX" constant="-150" id="RzU-LF-R5O"/>
                             <constraint firstItem="v8r-ZC-wV1" firstAttribute="centerX" secondItem="bjN-HY-Ms5" secondAttribute="centerX" id="T0d-nm-tPj"/>
                             <constraint firstItem="v8r-ZC-wV1" firstAttribute="centerX" secondItem="bjN-HY-Ms5" secondAttribute="centerX" id="VdA-Oa-evc"/>
                             <constraint firstItem="v8r-ZC-wV1" firstAttribute="centerX" secondItem="bjN-HY-Ms5" secondAttribute="centerX" id="Y8z-xs-hug"/>
