@@ -8,7 +8,6 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-    weak var delegate : DisplayViewControllerDelegate?
 
     
     @IBOutlet weak var userNameProfile: UILabel!
@@ -17,15 +16,10 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
 
         userNameProfile.text = userName
-        if let delegate = delegate{
-            delegate.doSomethingWith(data: userNameProfile.text ?? "" )
-        }
+        
         // Do any additional setup after loading the view.
     }
     
-   
+    @IBAction func unwindToProfile(segue: UIStoryboardSegue) { }
  
-}
-protocol DisplayViewControllerDelegate : NSObjectProtocol{
-    func doSomethingWith(data: String)
 }

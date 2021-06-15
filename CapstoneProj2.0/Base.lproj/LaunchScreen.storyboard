@@ -16,26 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2021-06-12 at 4.25.08 PM" translatesAutoresizingMaskIntoConstraints="NO" id="oFQ-OI-83w">
-                                <rect key="frame" x="117" y="373" width="150" height="150"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="9QZ-Sr-tfs"/>
-                                    <constraint firstAttribute="height" constant="150" id="j0F-AG-wHA"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How'dy Neighbor!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4e-BF-gAa">
-                                <rect key="frame" x="138.5" y="528" width="137.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="128.5" y="526.5" width="157" height="23"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="(oh my gifts!)2.0" translatesAutoresizingMaskIntoConstraints="NO" id="9kp-1X-h0X">
+                                <rect key="frame" x="87" y="361" width="240" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.23878937959999999" green="0.70652157069999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="O4e-BF-gAa" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="90" id="FQc-XB-jvK"/>
-                            <constraint firstItem="oFQ-OI-83w" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-15" id="J62-3U-iAE"/>
-                            <constraint firstItem="oFQ-OI-83w" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="M7k-t1-Ma5"/>
                             <constraint firstItem="O4e-BF-gAa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Zy7-ou-16V"/>
                         </constraints>
                     </view>
@@ -46,10 +41,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2021-06-12 at 4.25.08 PM" width="492" height="497"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="(oh my gifts!)2.0" width="1080" height="1080"/>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
